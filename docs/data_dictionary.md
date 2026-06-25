@@ -407,4 +407,17 @@ Plants
 
 **Current Estimated Records: ~101,542**
 
-> **Next Section:** Operations & Quality (Tables 10–15)
+Operations
+- Table 10 — Deliveries
+- Table 11 — Inspections
+
+Quality
+- Table 12 — DefectCategories
+- Table 13 — RootCauses
+- Table 14 — Defects
+- Table 15 — CorrectiveActions
+
+Reporting
+- Table 16 — SupplierAudits
+- Table 17 — Inventory
+- Table 18 — MonthlySupplierKPIs
