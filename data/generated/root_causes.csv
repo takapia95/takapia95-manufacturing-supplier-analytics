@@ -1,0 +1,11 @@
+RootCauseID,RootCauseName,Description
+RC001,Machine Calibration,Machine was not calibrated correctly
+RC002,Operator Error,Incorrect handling or assembly by operator
+RC003,Poor Packaging,Packaging did not protect parts during shipment
+RC004,Material Defect,Raw material quality issue
+RC005,Process Variation,Manufacturing process variation outside control limits
+RC006,Supplier Process Change,Supplier changed process without proper validation
+RC007,Tool Wear,Worn tooling caused quality issue
+RC008,Maintenance Issue,Machine or equipment maintenance issue
+RC009,Incorrect Specification,Wrong specification or drawing used
+RC010,Handling Damage,Damage occurred during handling or transport

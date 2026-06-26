@@ -1,0 +1,13 @@
+DefectCategoryID,DefectName,Description
+DEF001,Scratch,Surface scratch or cosmetic damage
+DEF002,Crack,Cracked material or structural weakness
+DEF003,Dent,Visible dent or deformation
+DEF004,Dimension Out of Spec,Part dimension does not meet tolerance
+DEF005,Missing Component,Required component is missing
+DEF006,Electrical Failure,Electrical part does not function correctly
+DEF007,Weld Failure,Poor or failed weld condition
+DEF008,Paint Defect,"Paint issue, discoloration, or uneven coating"
+DEF009,Rust,Corrosion or oxidation found
+DEF010,Incorrect Label,"Wrong, missing, or unreadable label"
+DEF011,Packaging Damage,Damage caused by poor packaging
+DEF012,Contamination,Foreign material or contamination found
