@@ -1,0 +1,13 @@
+PartCategoryID,CategoryName,Description
+CAT001,Electrical,Electrical and electronic vehicle components
+CAT002,Engine,Engine and powertrain components
+CAT003,Interior,Interior trim and cabin components
+CAT004,Exterior,Exterior body and trim components
+CAT005,Chassis,"Frame, suspension, and structural components"
+CAT006,Braking,Brake system components
+CAT007,Transmission,Transmission and drivetrain components
+CAT008,Fasteners,"Bolts, clips, screws, and fastening components"
+CAT009,HVAC,"Heating, ventilation, and air conditioning parts"
+CAT010,Battery,Battery and EV-related components
+CAT011,Safety,"Airbag, sensor, and safety components"
+CAT012,Lighting,"Headlamp, taillight, and lighting assemblies"
