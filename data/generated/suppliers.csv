@@ -1,101 +1,101 @@
 SupplierID,SupplierName,SupplierCategory,Country,State,City,ISO9001Certified,IATF16949Certified,PreferredSupplier,RiskLevel,SupplierStatus,StartDate
-SUP001,James-House,Exterior,USA,AL,Stonetown,True,False,False,Low,Active,2019-09-27
-SUP002,Williams-Taylor,Electronics,USA,AL,Lake Benjaminstad,False,True,True,Low,Active,2021-03-14
-SUP003,Maddox LLC,Interior,USA,GA,North Marissaburgh,True,False,False,Low,Active,2023-07-21
-SUP004,Medina and Sons,Powertrain,USA,GA,Port Nathan,True,False,False,Low,Active,2019-03-30
-SUP005,Pace and Sons,Powertrain,USA,KY,West Jerry,True,True,False,Low,Active,2021-02-17
-SUP006,"Rodriguez, Rodriguez and Haynes",Interior,USA,NC,Jeremyborough,True,False,False,Low,Inactive,2024-06-03
-SUP007,Gomez-Reed,Fasteners,USA,AL,Shieldsland,True,False,False,Low,Active,2017-04-15
-SUP008,Coleman and Sons,Electronics,USA,SC,Lisaside,True,True,True,Medium,Active,2019-08-27
-SUP009,"Green, Valenzuela and Russell",Fasteners,USA,KY,Scotthaven,True,True,False,Low,Active,2021-08-19
-SUP010,Schultz Group,Exterior,USA,AL,Juliestad,True,False,True,Low,Active,2021-03-26
-SUP011,Hill Inc,Exterior,USA,SC,East Jerry,True,True,True,Medium,Active,2020-08-30
-SUP012,Werner PLC,Fasteners,USA,NC,Adamport,True,True,False,Low,Active,2020-07-25
-SUP013,Howe-Walker,Exterior,USA,OH,East Jasmin,True,True,True,Low,Active,2018-02-23
-SUP014,Keller PLC,Plastic,USA,MI,Leefurt,False,True,True,High,Active,2024-04-18
-SUP015,"Wells, Rich and Perez",Fasteners,USA,AL,North David,True,True,True,Medium,Active,2023-11-02
-SUP016,Gilbert LLC,Fasteners,USA,AL,West Jason,False,True,False,Low,Inactive,2021-12-09
-SUP017,Hughes Group,Powertrain,USA,GA,South Andrewview,True,False,False,Medium,Active,2017-01-04
-SUP018,Williams and Sons,Plastic,USA,MI,North Katelyn,True,True,True,High,Active,2018-09-13
-SUP019,Cruz Inc,Plastic,USA,TN,West Adriana,True,False,False,Medium,Active,2024-07-24
-SUP020,Woods-Ferguson,Metal,USA,TN,Vasquezstad,True,True,True,Low,Active,2016-10-15
-SUP021,"Rivera, White and Kaufman",Electronics,USA,KY,South Stephanie,True,True,True,Low,Active,2020-07-31
-SUP022,"Anderson, Wang and Johnson",Electronics,USA,AL,East Angelaville,False,True,True,Low,Active,2022-07-23
-SUP023,Morton-Jimenez,Interior,USA,TN,Hendersonborough,True,False,False,High,Active,2025-03-10
-SUP024,"Neal, Li and Morgan",Powertrain,USA,SC,Martinezmouth,True,True,False,Low,Active,2022-06-28
-SUP025,Rodriguez-Dean,Electronics,USA,SC,Flemingberg,True,True,False,Low,Active,2022-09-14
-SUP026,Chavez Inc,Interior,USA,SC,North Kristopherton,True,True,True,Low,Active,2017-01-17
-SUP027,"Wilkerson, Anderson and Terrell",Powertrain,USA,KY,East Nicole,True,False,True,Low,Active,2020-02-28
-SUP028,"Parker, Huber and Irwin",Interior,USA,TN,Port Lisa,False,True,False,Medium,Active,2024-04-03
-SUP029,Taylor Inc,Electronics,USA,MI,Justinville,True,True,False,Low,Active,2019-04-17
-SUP030,Cohen Group,Exterior,USA,AL,Port Suzannemouth,True,True,False,Medium,Active,2024-02-16
-SUP031,Lawrence and Sons,Metal,USA,SC,Rachelhaven,False,True,False,Low,Active,2024-12-29
-SUP032,Webb-Wilson,Powertrain,USA,AL,Carpenterside,False,False,True,Low,Inactive,2016-09-23
-SUP033,Beck-Ward,Powertrain,USA,GA,Lake Jenniferfurt,True,True,True,Low,Active,2021-12-08
-SUP034,Barrett and Sons,Powertrain,USA,MI,New Adrian,True,True,False,Low,Active,2022-11-06
-SUP035,Robertson Ltd,Powertrain,USA,OH,Lake Joshuaberg,True,True,False,Low,Active,2021-09-18
-SUP036,"Miller, Sims and Hanson",Electronics,USA,GA,West Jeffery,True,True,True,Low,Active,2021-01-09
-SUP037,"Johnson, Daniels and Smith",Powertrain,USA,TN,South Anna,True,False,True,Medium,Active,2023-05-24
-SUP038,Smith-Pruitt,Electronics,USA,SC,Port Nancy,False,True,True,Low,Active,2020-05-04
-SUP039,Silva PLC,Electronics,USA,MI,Garrettshire,True,True,True,Medium,Active,2024-11-02
-SUP040,"Tyler, Figueroa and Weiss",Plastic,USA,MI,Port Patricia,True,False,False,Low,Active,2020-09-20
-SUP041,"Smith, Collins and Thomas",Electronics,USA,GA,New Michael,False,False,True,Low,Active,2020-01-24
-SUP042,Eaton Inc,Plastic,USA,TN,Port Christopher,True,True,True,Low,Active,2025-06-05
-SUP043,Newton Group,Powertrain,USA,NC,Leonardmouth,True,False,False,High,Active,2024-06-02
-SUP044,Dougherty-Moore,Metal,USA,NC,New Craig,True,True,True,Low,Active,2018-01-27
-SUP045,Lee-Morrison,Exterior,USA,KY,Turnerside,True,False,False,Low,Active,2022-04-14
-SUP046,Graham-Ross,Powertrain,USA,GA,East Michaeltown,True,False,False,Medium,Active,2020-03-03
-SUP047,"Manning, Ross and Arnold",Plastic,USA,TN,Clarkland,True,True,False,Low,Active,2017-11-17
-SUP048,Mills-Everett,Electronics,USA,AL,Margaretburgh,True,False,True,Low,Active,2020-07-20
-SUP049,Hill-Patel,Interior,USA,TN,Owenston,False,True,True,Low,Active,2021-11-09
-SUP050,"Simpson, Bradford and Williamson",Powertrain,USA,GA,New Josephburgh,True,True,True,Medium,Active,2018-10-18
-SUP051,Baker Inc,Interior,USA,MI,Phillipfort,True,True,True,High,Active,2020-11-26
-SUP052,"Jackson, Duke and Hill",Fasteners,USA,GA,Port Sarah,True,False,False,Medium,Active,2024-11-08
-SUP053,Richardson Inc,Exterior,USA,SC,Lake Brianaport,True,True,True,Low,Active,2020-09-05
-SUP054,Taylor-Ramos,Fasteners,USA,SC,West Dakota,True,True,False,Low,Active,2022-10-11
-SUP055,Brown-Valdez,Metal,USA,SC,New Michaelview,True,False,True,Low,Active,2022-11-17
-SUP056,James-Johnson,Electronics,USA,NC,Davidsonland,True,False,False,Medium,Active,2022-01-13
-SUP057,"Williams, Harmon and Good",Plastic,USA,GA,Melissafort,True,True,True,Low,Inactive,2020-12-13
-SUP058,Bowman-Salas,Electronics,USA,AL,Johnsonhaven,False,True,False,Low,Inactive,2024-05-10
-SUP059,"Baldwin, Ramirez and Alexander",Electronics,USA,MI,New Maria,True,True,True,Medium,Active,2025-05-02
-SUP060,"Gay, Rodriguez and Conley",Powertrain,USA,SC,Danielbury,True,True,True,High,Active,2022-06-10
-SUP061,"Payne, Wallace and Taylor",Interior,USA,KY,Lamview,True,False,False,Low,Active,2024-08-16
-SUP062,"Davis, Becker and Webster",Plastic,USA,MI,New Joshuaville,True,False,True,Low,Active,2024-06-21
-SUP063,Mckinney-Murray,Fasteners,USA,TN,Moralesbury,True,True,True,Low,Active,2020-09-16
-SUP064,"Michael, Porter and Johnson",Powertrain,USA,KY,Lake Catherineport,False,True,False,Medium,Active,2019-09-19
-SUP065,"Johnson, Martinez and Turner",Powertrain,USA,TN,Mauricefort,True,True,False,Low,Inactive,2019-02-27
-SUP066,Gomez-Johnson,Metal,USA,NC,Jacobton,True,True,True,Low,Active,2023-02-06
-SUP067,Hale-Anderson,Fasteners,USA,AL,Andersonmouth,False,True,True,Medium,Active,2024-01-05
-SUP068,Jordan-Harris,Fasteners,USA,SC,Crawfordville,True,False,True,Medium,Active,2021-01-26
-SUP069,"Pierce, Smith and Barron",Electronics,USA,MI,Mikaylamouth,True,True,False,Low,Active,2023-06-14
-SUP070,Stuart LLC,Powertrain,USA,AL,North Amanda,False,True,False,Medium,Inactive,2021-05-28
-SUP071,Vance and Sons,Interior,USA,KY,Fordside,False,False,False,Medium,Active,2025-04-26
-SUP072,Mcclain-Haley,Metal,USA,OH,Port Davidhaven,False,True,True,Medium,Active,2019-03-12
-SUP073,Ford-Murray,Powertrain,USA,OH,Dennisstad,True,True,False,Low,Active,2022-07-20
-SUP074,Weaver-Williams,Plastic,USA,KY,Alyssaland,True,False,True,Low,Active,2022-07-25
-SUP075,Humphrey PLC,Exterior,USA,TN,North Matthew,True,True,False,Low,Active,2021-05-30
-SUP076,Mack PLC,Fasteners,USA,GA,New Madison,True,True,False,High,Active,2023-11-02
-SUP077,Cook Inc,Exterior,USA,GA,East Danielshire,False,True,True,High,Active,2019-11-22
-SUP078,Ross Group,Fasteners,USA,MI,North Justin,True,True,True,Low,Active,2017-07-18
-SUP079,Lucas-Hurley,Fasteners,USA,KY,West Kendramouth,False,False,True,Medium,Active,2021-08-01
-SUP080,"Phelps, Armstrong and Woods",Interior,USA,GA,Keithfurt,False,False,True,Low,Active,2022-04-24
-SUP081,Howe-Kirk,Powertrain,USA,OH,Tammyfort,True,True,False,Low,Active,2023-08-08
-SUP082,"Williams, Ortiz and Bell",Plastic,USA,KY,Wrightmouth,False,True,False,Low,Active,2017-08-23
-SUP083,Burns-Torres,Electronics,USA,GA,Harrismouth,True,True,True,Medium,Active,2020-12-10
-SUP084,Mitchell Group,Powertrain,USA,GA,East Amy,True,True,True,Medium,Active,2023-08-05
-SUP085,Cook Group,Fasteners,USA,AL,Mcgeetown,True,True,False,Medium,Active,2017-08-17
-SUP086,Kim Ltd,Interior,USA,AL,West Elizabethstad,True,True,True,Low,Active,2024-10-26
-SUP087,"Scott, Cook and Jones",Interior,USA,MI,South Melissachester,False,False,True,Low,Active,2017-04-24
-SUP088,"Edwards, Lin and James",Exterior,USA,SC,Port Tonyaburgh,True,False,False,Medium,Active,2023-04-03
-SUP089,"Tyler, Murphy and Olsen",Electronics,USA,GA,North Charlesland,True,False,False,Medium,Active,2019-02-10
-SUP090,"Arnold, Davis and Sheppard",Exterior,USA,KY,Collinsfort,True,True,False,Low,Inactive,2021-06-22
-SUP091,Cunningham and Sons,Exterior,USA,OH,New Elizabeth,True,True,True,Medium,Inactive,2022-01-04
-SUP092,Hogan and Sons,Plastic,USA,OH,Heiditon,False,True,False,Low,Active,2020-04-28
-SUP093,"Roberts, Johnson and Wright",Electronics,USA,NC,East Claytontown,False,True,False,Low,Active,2022-07-13
-SUP094,Mitchell-Harrell,Plastic,USA,GA,New Michael,False,True,True,Low,Active,2018-01-28
-SUP095,"Garcia, Mckinney and Foster",Plastic,USA,KY,South Danny,True,False,False,Low,Active,2025-04-24
-SUP096,Bailey-King,Metal,USA,AL,Lake Larry,True,False,False,Low,Active,2022-03-25
-SUP097,"Haynes, Schmidt and Buck",Exterior,USA,OH,South Thomas,False,True,True,Low,Active,2018-03-12
-SUP098,King Ltd,Exterior,USA,SC,South Gary,True,False,False,Low,Active,2020-06-15
-SUP099,"Green, Wyatt and Mayer",Fasteners,USA,KY,West Julia,True,False,False,Low,Active,2023-03-28
-SUP100,Johnson-Contreras,Electronics,USA,SC,Williamsshire,True,True,True,Low,Active,2024-03-08
+SUP001,Bowman Inc,Exterior,USA,AL,Johnsonmouth,True,False,False,Low,Active,2024-10-13
+SUP002,Caldwell-Price,Electronics,USA,AL,North Jennifer,False,True,True,Low,Active,2017-08-11
+SUP003,Frank Inc,Interior,USA,GA,Lake Brianport,True,False,False,Low,Active,2023-06-12
+SUP004,"Fry, Banks and Parker",Powertrain,USA,GA,Shahburgh,True,False,False,Low,Active,2019-10-12
+SUP005,"Juarez, Hamilton and Powell",Powertrain,USA,KY,East Erikport,True,True,False,Low,Active,2024-10-02
+SUP006,Anderson-Griffin,Interior,USA,NC,South Tina,True,False,False,Low,Inactive,2017-09-15
+SUP007,Wright-Lyons,Fasteners,USA,AL,Nicholasfort,True,False,False,Low,Active,2018-01-29
+SUP008,Bartlett Group,Electronics,USA,SC,Hardingmouth,True,True,True,Medium,Active,2016-08-25
+SUP009,"Petty, Kirk and Hill",Fasteners,USA,KY,Thomasstad,True,True,False,Low,Active,2024-07-21
+SUP010,Young Group,Exterior,USA,AL,North Sean,True,False,True,Low,Active,2018-05-09
+SUP011,Mack-Burke,Exterior,USA,SC,Kimberlyfurt,True,True,True,Medium,Active,2025-06-13
+SUP012,Smith-Kidd,Fasteners,USA,NC,New Nancyshire,True,True,False,Low,Active,2018-11-07
+SUP013,Hampton-Patterson,Exterior,USA,OH,Burgessborough,True,True,True,Low,Active,2023-09-17
+SUP014,Burton Inc,Plastic,USA,MI,Wendyfort,False,True,True,High,Active,2024-06-14
+SUP015,Cardenas Inc,Fasteners,USA,AL,Ronnieville,True,True,True,Medium,Active,2020-07-04
+SUP016,Wade LLC,Fasteners,USA,AL,East Masonberg,False,True,False,Low,Inactive,2019-06-30
+SUP017,Barron-Williams,Powertrain,USA,GA,Navarroport,True,False,False,Medium,Active,2021-10-23
+SUP018,"Smith, White and Lopez",Plastic,USA,MI,Wilkinsonbury,True,True,True,High,Active,2019-07-11
+SUP019,Steele LLC,Plastic,USA,TN,North Luis,True,False,False,Medium,Active,2023-11-15
+SUP020,"Copeland, Walker and Miller",Metal,USA,TN,Rothfort,True,True,True,Low,Active,2025-06-05
+SUP021,Lewis Ltd,Electronics,USA,KY,North Jennifer,True,True,True,Low,Active,2021-03-27
+SUP022,"Benitez, Webb and Morrison",Electronics,USA,AL,Morenohaven,False,True,True,Low,Active,2017-10-01
+SUP023,Robles and Sons,Interior,USA,TN,Roberthaven,True,False,False,High,Active,2019-08-22
+SUP024,Rosales and Sons,Powertrain,USA,SC,West Vanessa,True,True,False,Low,Active,2017-09-10
+SUP025,Huffman-Jackson,Electronics,USA,SC,Knightfurt,True,True,False,Low,Active,2018-03-30
+SUP026,"Foster, Ortiz and Rios",Interior,USA,SC,East Johnfort,True,True,True,Low,Active,2019-11-26
+SUP027,Padilla Group,Powertrain,USA,KY,Brianchester,True,False,True,Low,Active,2022-06-09
+SUP028,"Best, Wilson and Parks",Interior,USA,TN,Hawkinsburgh,False,True,False,Medium,Active,2017-10-11
+SUP029,Ferrell PLC,Electronics,USA,MI,Lewisport,True,True,False,Low,Active,2022-09-15
+SUP030,Johnson and Sons,Exterior,USA,AL,Port Dale,True,True,False,Medium,Active,2025-03-11
+SUP031,Boyd Ltd,Metal,USA,SC,Johnmouth,False,True,False,Low,Active,2020-01-22
+SUP032,King-Wiley,Powertrain,USA,AL,Juliemouth,False,False,True,Low,Inactive,2017-05-12
+SUP033,Bell-Hubbard,Powertrain,USA,GA,East Mercedes,True,True,True,Low,Active,2017-09-09
+SUP034,Johnson-Huang,Powertrain,USA,MI,New Jacob,True,True,False,Low,Active,2020-06-08
+SUP035,Thomas Group,Powertrain,USA,OH,Madisonberg,True,True,False,Low,Active,2020-02-15
+SUP036,Carson Inc,Electronics,USA,GA,West Kayla,True,True,True,Low,Active,2020-05-15
+SUP037,"Wong, Beltran and Mendoza",Powertrain,USA,TN,Jasonhaven,True,False,True,Medium,Active,2023-12-17
+SUP038,Peters Group,Electronics,USA,SC,Lake Rebecca,False,True,True,Low,Active,2024-02-19
+SUP039,Boyd-Klein,Electronics,USA,MI,New Lindseymouth,True,True,True,Medium,Active,2018-10-07
+SUP040,Potter-Jones,Plastic,USA,MI,Lake Shawn,True,False,False,Low,Active,2019-05-22
+SUP041,"Randolph, Heath and Gutierrez",Electronics,USA,GA,Hudsonland,False,False,True,Low,Active,2022-05-04
+SUP042,"King, Gallagher and Quinn",Plastic,USA,TN,Huangstad,True,True,True,Low,Active,2017-03-19
+SUP043,"Chen, Hurley and Allen",Powertrain,USA,NC,Matthewtown,True,False,False,High,Active,2023-03-28
+SUP044,Vance-Cooper,Metal,USA,NC,Alexismouth,True,True,True,Low,Active,2021-03-02
+SUP045,"Gay, Ray and Rowe",Exterior,USA,KY,West Alexis,True,False,False,Low,Active,2019-11-17
+SUP046,"Gibson, Wright and Williams",Powertrain,USA,GA,South Larry,True,False,False,Medium,Active,2021-01-22
+SUP047,Stewart LLC,Plastic,USA,TN,East Adriennefurt,True,True,False,Low,Active,2023-01-22
+SUP048,"Christensen, Park and Lester",Electronics,USA,AL,Port Williamton,True,False,True,Low,Active,2017-10-06
+SUP049,"White, Ray and Perez",Interior,USA,TN,West Tamara,False,True,True,Low,Active,2017-03-11
+SUP050,"Lyons, Haynes and Hughes",Powertrain,USA,GA,Lawrencehaven,True,True,True,Medium,Active,2021-09-11
+SUP051,Ayers PLC,Interior,USA,MI,Jillport,True,True,True,High,Active,2025-05-17
+SUP052,Campbell Inc,Fasteners,USA,GA,Lake Jessicaside,True,False,False,Medium,Active,2025-03-10
+SUP053,"Johnson, Smith and Brown",Exterior,USA,SC,Davidborough,True,True,True,Low,Active,2022-05-16
+SUP054,Joseph PLC,Fasteners,USA,SC,Elizabethmouth,True,True,False,Low,Active,2021-04-08
+SUP055,"Fernandez, Stokes and Waller",Metal,USA,SC,North Aprilview,True,False,True,Low,Active,2016-08-07
+SUP056,"Pena, Schneider and Hood",Electronics,USA,NC,Thompsonview,True,False,False,Medium,Active,2023-06-06
+SUP057,Wolf-Bender,Plastic,USA,GA,Port Amanda,True,True,True,Low,Inactive,2017-02-07
+SUP058,Watkins LLC,Electronics,USA,AL,Taylormouth,False,True,False,Low,Inactive,2022-01-09
+SUP059,Esparza PLC,Electronics,USA,MI,Brandonland,True,True,True,Medium,Active,2022-03-13
+SUP060,"Hill, Boyle and Martinez",Powertrain,USA,SC,Melanieshire,True,True,True,High,Active,2019-09-16
+SUP061,Barker-Bell,Interior,USA,KY,Danielport,True,False,False,Low,Active,2022-04-20
+SUP062,Shepherd Ltd,Plastic,USA,MI,Kellytown,True,False,True,Low,Active,2020-03-19
+SUP063,Patterson PLC,Fasteners,USA,TN,Port Micheleborough,True,True,True,Low,Active,2020-10-08
+SUP064,Doyle LLC,Powertrain,USA,KY,Quinnmouth,False,True,False,Medium,Active,2021-06-02
+SUP065,Maldonado-Mills,Powertrain,USA,TN,Manuelmouth,True,True,False,Low,Inactive,2017-07-13
+SUP066,Payne Ltd,Metal,USA,NC,Reevesborough,True,True,True,Low,Active,2018-10-25
+SUP067,"Sanchez, Flowers and Burgess",Fasteners,USA,AL,Port Michael,False,True,True,Medium,Active,2017-08-05
+SUP068,"Vargas, Clark and Lyons",Fasteners,USA,SC,West Peterborough,True,False,True,Medium,Active,2021-12-25
+SUP069,Stephens and Sons,Electronics,USA,MI,Michaelton,True,True,False,Low,Active,2022-07-01
+SUP070,Baker-Kane,Powertrain,USA,AL,West Terri,False,True,False,Medium,Inactive,2020-11-23
+SUP071,Patterson LLC,Interior,USA,KY,Lake Michaelberg,False,False,False,Medium,Active,2022-05-31
+SUP072,"Smith, Wood and Horne",Metal,USA,OH,Alexandriahaven,False,True,True,Medium,Active,2017-07-05
+SUP073,"Morales, Molina and Harris",Powertrain,USA,OH,East Frankport,True,True,False,Low,Active,2016-07-15
+SUP074,Jones and Sons,Plastic,USA,KY,Brownberg,True,False,True,Low,Active,2024-11-24
+SUP075,"Fitzgerald, Long and Williams",Exterior,USA,TN,Greenton,True,True,False,Low,Active,2020-06-01
+SUP076,Valdez-Livingston,Fasteners,USA,GA,Adamston,True,True,False,High,Active,2023-05-24
+SUP077,Scott and Sons,Exterior,USA,GA,Lake Karlaburgh,False,True,True,High,Active,2024-05-06
+SUP078,"Mccann, Nicholson and Smith",Fasteners,USA,MI,Port Benjamin,True,True,True,Low,Active,2024-01-02
+SUP079,Smith and Sons,Fasteners,USA,KY,North Teresa,False,False,True,Medium,Active,2017-05-17
+SUP080,Martinez Ltd,Interior,USA,GA,Deborahport,False,False,True,Low,Active,2018-02-07
+SUP081,"Oneill, Gomez and Herrera",Powertrain,USA,OH,Arianamouth,True,True,False,Low,Active,2024-11-03
+SUP082,Oliver Group,Plastic,USA,KY,North Rachel,False,True,False,Low,Active,2017-10-06
+SUP083,"Klein, Mercer and Johnston",Electronics,USA,GA,Deanstad,True,True,True,Medium,Active,2020-10-14
+SUP084,"Vincent, Sanchez and Mercer",Powertrain,USA,GA,Amandamouth,True,True,True,Medium,Active,2024-03-18
+SUP085,"Hart, Crawford and Shepherd",Fasteners,USA,AL,New Jamesside,True,True,False,Medium,Active,2023-08-01
+SUP086,Thompson Group,Interior,USA,AL,Johnnyberg,True,True,True,Low,Active,2022-02-01
+SUP087,Moore Group,Interior,USA,MI,Port Jamestown,False,False,True,Low,Active,2023-07-09
+SUP088,Collier-Montgomery,Exterior,USA,SC,Port Angela,True,False,False,Medium,Active,2020-10-09
+SUP089,Hunt-Johnson,Electronics,USA,GA,Kramerstad,True,False,False,Medium,Active,2020-07-08
+SUP090,Mills Inc,Exterior,USA,KY,West John,True,True,False,Low,Inactive,2025-03-07
+SUP091,Hicks LLC,Exterior,USA,OH,Smithmouth,True,True,True,Medium,Inactive,2022-08-26
+SUP092,Harris LLC,Plastic,USA,OH,North Linda,False,True,False,Low,Active,2019-04-09
+SUP093,Ramos and Sons,Electronics,USA,NC,North Michelle,False,True,False,Low,Active,2023-03-12
+SUP094,"Lee, Anderson and Ramos",Plastic,USA,GA,East Kathryn,False,True,True,Low,Active,2020-05-20
+SUP095,Taylor Inc,Plastic,USA,KY,Lowefort,True,False,False,Low,Active,2017-04-09
+SUP096,"Walker, Wright and Becker",Metal,USA,AL,South Nicholas,True,False,False,Low,Active,2016-10-20
+SUP097,"Lawson, Lee and Cochran",Exterior,USA,OH,Lake Seanmouth,False,True,True,Low,Active,2021-11-06
+SUP098,"Gilbert, Johnson and Watkins",Exterior,USA,SC,Walkerberg,True,False,False,Low,Active,2019-02-15
+SUP099,Mitchell-Jackson,Fasteners,USA,KY,New Benjamin,True,False,False,Low,Active,2021-08-11
+SUP100,Ryan-Collier,Electronics,USA,SC,Lake Elizabethville,True,True,True,Low,Active,2021-12-24
