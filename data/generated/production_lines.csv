@@ -1,0 +1,25 @@
+LineID,PlantID,LineName,Shift,CapacityPerDay,Status
+LIN001,PLT001,West Point Assembly Plant Line 1,Day,650,Active
+LIN002,PLT001,West Point Assembly Plant Line 2,Night,1098,Active
+LIN003,PLT001,West Point Assembly Plant Line 3,Day,579,Active
+LIN004,PLT001,West Point Assembly Plant Line 4,Evening,1034,Active
+LIN005,PLT002,Montgomery Powertrain Plant Line 1,Evening,997,Active
+LIN006,PLT002,Montgomery Powertrain Plant Line 2,Evening,1053,Active
+LIN007,PLT002,Montgomery Powertrain Plant Line 3,Evening,1082,Active
+LIN008,PLT002,Montgomery Powertrain Plant Line 4,Evening,694,Active
+LIN009,PLT003,Savannah Parts Distribution Center Line 1,Day,475,Active
+LIN010,PLT003,Savannah Parts Distribution Center Line 2,Evening,1001,Active
+LIN011,PLT003,Savannah Parts Distribution Center Line 3,Evening,1106,Active
+LIN012,PLT003,Savannah Parts Distribution Center Line 4,Evening,603,Offline
+LIN013,PLT004,Columbus Components Plant Line 1,Evening,509,Active
+LIN014,PLT004,Columbus Components Plant Line 2,Night,767,Active
+LIN015,PLT004,Columbus Components Plant Line 3,Night,702,Active
+LIN016,PLT004,Columbus Components Plant Line 4,Night,805,Active
+LIN017,PLT005,Chattanooga Assembly Plant Line 1,Night,1102,Active
+LIN018,PLT005,Chattanooga Assembly Plant Line 2,Day,1020,Active
+LIN019,PLT005,Chattanooga Assembly Plant Line 3,Evening,1194,Active
+LIN020,PLT005,Chattanooga Assembly Plant Line 4,Night,760,Active
+LIN021,PLT006,Louisville Battery Plant Line 1,Day,1035,Active
+LIN022,PLT006,Louisville Battery Plant Line 2,Night,1185,Active
+LIN023,PLT006,Louisville Battery Plant Line 3,Day,1043,Active
+LIN024,PLT006,Louisville Battery Plant Line 4,Night,1061,Active

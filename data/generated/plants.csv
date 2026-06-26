@@ -1,0 +1,7 @@
+PlantID,PlantName,City,State,Country,PlantType,OpeningDate
+PLT001,West Point Assembly Plant,West Point,GA,USA,Assembly,2009-01-01
+PLT002,Montgomery Powertrain Plant,Montgomery,AL,USA,Engine,2010-06-15
+PLT003,Savannah Parts Distribution Center,Savannah,GA,USA,Distribution,2015-03-20
+PLT004,Columbus Components Plant,Columbus,GA,USA,Assembly,2012-09-10
+PLT005,Chattanooga Assembly Plant,Chattanooga,TN,USA,Assembly,2011-05-18
+PLT006,Louisville Battery Plant,Louisville,KY,USA,Battery,2018-11-05

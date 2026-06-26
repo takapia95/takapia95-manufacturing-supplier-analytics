@@ -1,0 +1,201 @@
+EmployeeID,FirstName,LastName,JobTitle,Department,PlantID,HireDate,EmploymentStatus
+EMP0001,Rhonda,Logan,Process Engineer,Engineering,PLT005,2023-12-27,Active
+EMP0002,Dave,Hill,Buyer,Purchasing,PLT003,2025-09-24,Active
+EMP0003,Rodney,Cochran,Process Engineer,Engineering,PLT002,2022-09-11,Active
+EMP0004,Angela,Rowe,Warehouse Supervisor,Logistics,PLT005,2023-02-18,Active
+EMP0005,Alisha,Nguyen,Production Supervisor,Production,PLT003,2014-07-04,Active
+EMP0006,Jacob,Wagner,Manufacturing Engineer,Engineering,PLT006,2023-11-12,Active
+EMP0007,Ashley,Morrison,Supplier Quality Engineer,Quality,PLT001,2017-12-03,Active
+EMP0008,Tonya,Black,Procurement Manager,Purchasing,PLT006,2024-03-21,Active
+EMP0009,Kathryn,Paul,Industrial Engineer,Engineering,PLT003,2014-08-21,Active
+EMP0010,Joshua,Russell,Process Engineer,Engineering,PLT003,2024-08-01,Active
+EMP0011,Kyle,Graham,Manufacturing Engineer,Engineering,PLT006,2016-02-20,Active
+EMP0012,Alicia,Wise,Production Manager,Production,PLT004,2022-11-11,Active
+EMP0013,Anna,Stone,Production Supervisor,Production,PLT006,2014-08-10,Active
+EMP0014,Micheal,Mann,Quality Manager,Quality,PLT005,2021-06-02,Active
+EMP0015,Gregory,Contreras,Logistics Coordinator,Logistics,PLT006,2015-03-25,Active
+EMP0016,Charles,Cruz,Industrial Engineer,Engineering,PLT003,2016-04-12,Active
+EMP0017,Ian,Reese,Quality Inspector,Quality,PLT001,2019-08-11,Leave
+EMP0018,Melissa,Clark,Line Operator,Production,PLT001,2017-05-03,Active
+EMP0019,Jessica,Rogers,Logistics Coordinator,Logistics,PLT004,2021-10-24,Active
+EMP0020,William,Brown,Director of Manufacturing,Management,PLT006,2017-02-27,Leave
+EMP0021,Edward,Price,Industrial Engineer,Engineering,PLT006,2020-11-18,Active
+EMP0022,Erica,Gray,Industrial Engineer,Engineering,PLT001,2022-02-26,Active
+EMP0023,James,Harrington,Warehouse Supervisor,Logistics,PLT003,2021-05-24,Active
+EMP0024,Adam,Reyes,Production Supervisor,Production,PLT004,2016-07-02,Active
+EMP0025,Matthew,Davis,Purchasing Analyst,Purchasing,PLT001,2021-01-03,Retired
+EMP0026,Danielle,Mcbride,Production Manager,Production,PLT006,2021-04-04,Active
+EMP0027,Melissa,Ruiz,Manufacturing Engineer,Engineering,PLT002,2024-09-24,Leave
+EMP0028,Roger,Hughes,Process Engineer,Engineering,PLT006,2017-10-28,Active
+EMP0029,Robert,Kelly,Director of Manufacturing,Management,PLT001,2016-09-20,Active
+EMP0030,Kristina,Pratt,Production Supervisor,Production,PLT002,2025-12-08,Active
+EMP0031,Amanda,Wang,Buyer,Purchasing,PLT005,2024-03-07,Active
+EMP0032,Devin,Bender,Buyer,Purchasing,PLT003,2018-01-25,Active
+EMP0033,Katrina,Kelly,Logistics Coordinator,Logistics,PLT003,2016-01-16,Active
+EMP0034,Brianna,Davis,Buyer,Purchasing,PLT005,2021-09-15,Active
+EMP0035,Jacob,Mccall,Buyer,Purchasing,PLT006,2021-07-26,Active
+EMP0036,Scott,Gay,Buyer,Purchasing,PLT003,2020-10-21,Active
+EMP0037,Tammy,Nichols,Procurement Manager,Purchasing,PLT003,2024-03-03,Active
+EMP0038,Brenda,Martinez,Production Supervisor,Production,PLT002,2024-06-18,Active
+EMP0039,Jacqueline,Giles,Logistics Coordinator,Logistics,PLT006,2015-05-05,Active
+EMP0040,Nicole,Johnson,Manufacturing Engineer,Engineering,PLT005,2015-04-29,Active
+EMP0041,Alexander,Knight,Industrial Engineer,Engineering,PLT002,2019-05-31,Leave
+EMP0042,Christopher,Harmon,Quality Manager,Quality,PLT006,2021-05-01,Active
+EMP0043,Katie,Rivera,Industrial Engineer,Engineering,PLT001,2020-11-10,Active
+EMP0044,Robert,Powell,Manufacturing Engineer,Engineering,PLT004,2016-12-09,Active
+EMP0045,Rachel,Bryant,Industrial Engineer,Engineering,PLT004,2021-08-08,Active
+EMP0046,John,Hill,Supplier Quality Engineer,Quality,PLT005,2026-01-26,Active
+EMP0047,Melissa,Roberts,Purchasing Analyst,Purchasing,PLT005,2017-08-26,Active
+EMP0048,Joshua,Palmer,Materials Planner,Logistics,PLT003,2023-09-16,Active
+EMP0049,Sharon,Holland,Materials Planner,Logistics,PLT003,2025-09-18,Active
+EMP0050,David,Gonzalez,Warehouse Supervisor,Logistics,PLT001,2014-08-01,Active
+EMP0051,Tammy,Payne,Quality Manager,Quality,PLT006,2022-10-26,Active
+EMP0052,Olivia,Haas,Materials Planner,Logistics,PLT002,2016-10-23,Active
+EMP0053,Justin,Hernandez,Purchasing Analyst,Purchasing,PLT003,2022-06-27,Active
+EMP0054,Lisa,Bowman,Manufacturing Engineer,Engineering,PLT006,2018-10-14,Active
+EMP0055,Lisa,Clark,Manufacturing Engineer,Engineering,PLT006,2025-08-01,Active
+EMP0056,Rebecca,Molina,Procurement Manager,Purchasing,PLT004,2022-05-10,Active
+EMP0057,Sandra,Hardin,Quality Inspector,Quality,PLT004,2022-01-14,Active
+EMP0058,Emily,Berger,Operations Manager,Management,PLT002,2022-07-14,Active
+EMP0059,Alec,Powell,Materials Planner,Logistics,PLT005,2024-08-02,Active
+EMP0060,David,Atkinson,Supplier Quality Engineer,Quality,PLT003,2018-04-01,Active
+EMP0061,Terri,Harrell,Industrial Engineer,Engineering,PLT001,2016-06-07,Leave
+EMP0062,Stacey,Thompson,Warehouse Supervisor,Logistics,PLT003,2024-11-13,Active
+EMP0063,Christopher,Neal,Logistics Coordinator,Logistics,PLT002,2016-11-02,Active
+EMP0064,Misty,Fuller,Buyer,Purchasing,PLT003,2020-09-24,Active
+EMP0065,Richard,Holden,Production Supervisor,Production,PLT003,2024-11-12,Active
+EMP0066,John,Collins,Industrial Engineer,Engineering,PLT005,2016-05-02,Active
+EMP0067,Tamara,Lambert,Director of Manufacturing,Management,PLT001,2025-07-08,Active
+EMP0068,Lisa,Lawrence,Director of Manufacturing,Management,PLT003,2025-01-22,Active
+EMP0069,Ryan,Lyons,Production Manager,Production,PLT003,2015-08-28,Leave
+EMP0070,Claudia,Thomas,Production Supervisor,Production,PLT002,2016-08-19,Active
+EMP0071,Annette,Rose,Materials Planner,Logistics,PLT004,2022-10-14,Active
+EMP0072,Jeffrey,Allison,Director of Manufacturing,Management,PLT001,2019-07-30,Active
+EMP0073,Brett,Alexander,Logistics Coordinator,Logistics,PLT004,2015-12-01,Active
+EMP0074,Devin,Hardin,Production Supervisor,Production,PLT003,2022-02-25,Active
+EMP0075,Deanna,Jackson,Production Manager,Production,PLT005,2022-10-20,Active
+EMP0076,Candice,Gibson,Quality Inspector,Quality,PLT002,2016-12-15,Active
+EMP0077,Julie,Sharp,Quality Manager,Quality,PLT001,2023-07-16,Active
+EMP0078,Miranda,Mitchell,Operations Manager,Management,PLT004,2022-01-04,Active
+EMP0079,Matthew,Fox,Manufacturing Engineer,Engineering,PLT002,2015-11-10,Active
+EMP0080,Erin,Johnson,Supplier Quality Engineer,Quality,PLT004,2017-09-04,Active
+EMP0081,Phillip,Kim,Director of Manufacturing,Management,PLT005,2018-12-20,Active
+EMP0082,Adam,Hunt,Operations Manager,Management,PLT001,2021-10-25,Active
+EMP0083,Erica,Lucas,Logistics Coordinator,Logistics,PLT001,2022-04-10,Active
+EMP0084,Gary,Simmons,Buyer,Purchasing,PLT003,2016-03-11,Active
+EMP0085,Dakota,Young,Quality Inspector,Quality,PLT004,2022-04-30,Active
+EMP0086,Rebecca,Leonard,Buyer,Purchasing,PLT004,2024-04-21,Active
+EMP0087,Lori,Rowland,Procurement Manager,Purchasing,PLT005,2019-04-26,Active
+EMP0088,Joshua,Mcguire,Production Supervisor,Production,PLT004,2022-05-27,Active
+EMP0089,Dana,Martinez,Supplier Quality Engineer,Quality,PLT001,2018-10-11,Active
+EMP0090,Brenda,Walker,Supplier Quality Engineer,Quality,PLT005,2023-12-09,Active
+EMP0091,Angela,Wells,Industrial Engineer,Engineering,PLT006,2014-09-07,Active
+EMP0092,Dominique,Mccormick,Supplier Quality Engineer,Quality,PLT001,2024-06-23,Leave
+EMP0093,Samantha,Ferguson,Procurement Manager,Purchasing,PLT004,2016-05-22,Active
+EMP0094,Sharon,Mccarthy,Production Supervisor,Production,PLT004,2016-08-26,Active
+EMP0095,Anthony,Horton,Purchasing Analyst,Purchasing,PLT005,2020-10-17,Active
+EMP0096,Jessica,Carter,Supplier Quality Engineer,Quality,PLT003,2016-06-07,Active
+EMP0097,Jonathan,Deleon,Purchasing Analyst,Purchasing,PLT002,2020-07-16,Active
+EMP0098,David,Hernandez,Plant Manager,Management,PLT005,2025-12-19,Active
+EMP0099,Sally,Wall,Line Operator,Production,PLT006,2016-11-15,Leave
+EMP0100,Travis,Vance,Plant Manager,Management,PLT002,2020-07-11,Active
+EMP0101,Christopher,Lee,Production Supervisor,Production,PLT002,2017-10-27,Active
+EMP0102,Joanne,Thomas,Plant Manager,Management,PLT002,2019-09-07,Leave
+EMP0103,Grant,Bailey,Operations Manager,Management,PLT004,2026-01-13,Active
+EMP0104,Becky,Lewis,Warehouse Supervisor,Logistics,PLT006,2023-02-20,Leave
+EMP0105,Bradley,Hawkins,Materials Planner,Logistics,PLT006,2017-07-12,Retired
+EMP0106,Andrew,Green,Production Manager,Production,PLT003,2024-01-24,Active
+EMP0107,Gabrielle,Payne,Supplier Quality Engineer,Quality,PLT004,2014-06-29,Active
+EMP0108,Adam,Robinson,Production Manager,Production,PLT001,2019-11-03,Active
+EMP0109,Lynn,Garza,Supplier Quality Engineer,Quality,PLT004,2020-03-25,Active
+EMP0110,Christopher,Rivas,Supplier Quality Engineer,Quality,PLT003,2020-11-13,Active
+EMP0111,Mary,Merritt,Quality Manager,Quality,PLT005,2015-04-09,Active
+EMP0112,Marissa,Aguilar,Industrial Engineer,Engineering,PLT005,2020-11-29,Leave
+EMP0113,Megan,Parks,Plant Manager,Management,PLT004,2022-01-21,Active
+EMP0114,Kathryn,Contreras,Materials Planner,Logistics,PLT002,2017-01-17,Active
+EMP0115,Joshua,Fowler,Industrial Engineer,Engineering,PLT002,2025-09-18,Leave
+EMP0116,Seth,Robertson,Process Engineer,Engineering,PLT003,2022-03-09,Retired
+EMP0117,Diana,Vargas,Quality Manager,Quality,PLT006,2015-04-18,Active
+EMP0118,Victor,Moran,Procurement Manager,Purchasing,PLT004,2023-06-06,Retired
+EMP0119,Brittany,Perry,Materials Planner,Logistics,PLT005,2016-10-17,Active
+EMP0120,Brittany,Wood,Line Operator,Production,PLT004,2018-09-14,Active
+EMP0121,Kerry,Davis,Production Manager,Production,PLT005,2016-10-27,Active
+EMP0122,Tracy,Preston,Director of Manufacturing,Management,PLT003,2026-04-01,Active
+EMP0123,Kristin,Sharp,Quality Manager,Quality,PLT006,2022-04-11,Active
+EMP0124,Ian,Torres,Production Manager,Production,PLT006,2019-05-09,Leave
+EMP0125,Kevin,Sanchez,Logistics Coordinator,Logistics,PLT003,2025-01-02,Active
+EMP0126,Ethan,Walter,Plant Manager,Management,PLT003,2020-12-08,Active
+EMP0127,Anthony,English,Director of Manufacturing,Management,PLT006,2016-05-05,Active
+EMP0128,James,Gibbs,Materials Planner,Logistics,PLT001,2024-11-07,Active
+EMP0129,Jeffrey,Casey,Industrial Engineer,Engineering,PLT003,2018-07-15,Active
+EMP0130,Kim,Thomas,Director of Manufacturing,Management,PLT006,2026-01-31,Retired
+EMP0131,Shelia,Roman,Logistics Coordinator,Logistics,PLT006,2021-08-13,Active
+EMP0132,Mark,Strickland,Warehouse Supervisor,Logistics,PLT001,2026-03-10,Active
+EMP0133,Peter,Avery,Buyer,Purchasing,PLT003,2021-04-25,Leave
+EMP0134,Antonio,Jensen,Process Engineer,Engineering,PLT002,2017-12-24,Retired
+EMP0135,Mary,Baker,Buyer,Purchasing,PLT003,2019-02-18,Active
+EMP0136,Brandon,Thomas,Quality Manager,Quality,PLT005,2021-09-27,Active
+EMP0137,Morgan,Hayes,Logistics Coordinator,Logistics,PLT006,2016-11-15,Active
+EMP0138,Michael,Morales,Logistics Coordinator,Logistics,PLT005,2023-12-22,Active
+EMP0139,Jeremiah,Miller,Buyer,Purchasing,PLT006,2022-02-20,Active
+EMP0140,Sara,Smith,Procurement Manager,Purchasing,PLT004,2016-12-02,Active
+EMP0141,Ryan,Ross,Production Manager,Production,PLT006,2015-04-16,Active
+EMP0142,Justin,Austin,Industrial Engineer,Engineering,PLT003,2016-06-14,Active
+EMP0143,Gerald,Rodriguez,Process Engineer,Engineering,PLT005,2020-03-04,Active
+EMP0144,Robert,Ford,Process Engineer,Engineering,PLT003,2015-10-29,Active
+EMP0145,Renee,Johnson,Warehouse Supervisor,Logistics,PLT004,2020-10-24,Active
+EMP0146,Thomas,Jones,Industrial Engineer,Engineering,PLT005,2022-04-30,Active
+EMP0147,Christina,Weeks,Buyer,Purchasing,PLT005,2019-05-23,Active
+EMP0148,Erica,Tanner,Production Supervisor,Production,PLT006,2015-04-24,Active
+EMP0149,Jeffrey,Dunn,Production Manager,Production,PLT001,2017-12-21,Active
+EMP0150,Danielle,Kane,Logistics Coordinator,Logistics,PLT003,2022-01-17,Active
+EMP0151,Katrina,Bennett,Purchasing Analyst,Purchasing,PLT004,2023-10-10,Active
+EMP0152,Christopher,Jenkins,Purchasing Analyst,Purchasing,PLT001,2025-12-06,Leave
+EMP0153,Christina,Casey,Purchasing Analyst,Purchasing,PLT003,2021-03-28,Leave
+EMP0154,Craig,Wilson,Process Engineer,Engineering,PLT004,2023-01-25,Active
+EMP0155,Virginia,Williams,Purchasing Analyst,Purchasing,PLT001,2022-09-26,Active
+EMP0156,Anthony,Rosario,Supplier Quality Engineer,Quality,PLT001,2015-01-25,Active
+EMP0157,Steven,Fleming,Operations Manager,Management,PLT002,2023-10-28,Active
+EMP0158,Paul,Rodriguez,Line Operator,Production,PLT006,2014-08-25,Active
+EMP0159,Jenny,Flores,Operations Manager,Management,PLT004,2016-06-22,Active
+EMP0160,Steven,Johnson,Quality Inspector,Quality,PLT003,2019-08-12,Active
+EMP0161,Gavin,Jones,Procurement Manager,Purchasing,PLT006,2017-08-08,Active
+EMP0162,Matthew,Butler,Process Engineer,Engineering,PLT003,2024-05-10,Active
+EMP0163,Amber,Harrell,Quality Inspector,Quality,PLT002,2019-03-11,Active
+EMP0164,Jerome,Whitaker,Warehouse Supervisor,Logistics,PLT001,2024-12-08,Active
+EMP0165,Desiree,Lopez,Industrial Engineer,Engineering,PLT005,2023-12-14,Active
+EMP0166,Cassidy,Carr,Materials Planner,Logistics,PLT002,2020-12-07,Active
+EMP0167,Paul,Lopez,Line Operator,Production,PLT001,2016-02-25,Active
+EMP0168,Brittany,Rogers,Procurement Manager,Purchasing,PLT004,2018-09-11,Active
+EMP0169,Victor,Johnson,Plant Manager,Management,PLT005,2024-11-25,Retired
+EMP0170,Michael,Choi,Quality Manager,Quality,PLT005,2018-02-14,Active
+EMP0171,Megan,Baker,Materials Planner,Logistics,PLT001,2018-07-09,Active
+EMP0172,Dawn,Boyle,Process Engineer,Engineering,PLT006,2014-09-18,Active
+EMP0173,Maureen,Gonzalez,Line Operator,Production,PLT006,2015-05-18,Active
+EMP0174,Lisa,Hickman,Supplier Quality Engineer,Quality,PLT002,2025-10-03,Active
+EMP0175,Charles,Hutchinson,Plant Manager,Management,PLT005,2014-10-08,Active
+EMP0176,Matthew,Rodriguez,Production Supervisor,Production,PLT001,2018-11-16,Active
+EMP0177,Caleb,Wallace,Production Manager,Production,PLT002,2026-01-20,Active
+EMP0178,Amanda,Smith,Operations Manager,Management,PLT006,2022-04-03,Active
+EMP0179,Andrea,Davis,Buyer,Purchasing,PLT001,2020-07-30,Active
+EMP0180,Yolanda,Mckenzie,Process Engineer,Engineering,PLT003,2021-02-01,Active
+EMP0181,Kurt,Copeland,Buyer,Purchasing,PLT003,2017-01-21,Leave
+EMP0182,Samantha,Gonzalez,Warehouse Supervisor,Logistics,PLT005,2021-05-18,Active
+EMP0183,Kristy,Bell,Quality Manager,Quality,PLT002,2026-01-31,Active
+EMP0184,Mary,Williams,Quality Manager,Quality,PLT003,2019-03-20,Active
+EMP0185,Gary,Cantrell,Line Operator,Production,PLT004,2018-09-22,Active
+EMP0186,Amanda,Delgado,Manufacturing Engineer,Engineering,PLT002,2017-02-21,Active
+EMP0187,David,Neal,Manufacturing Engineer,Engineering,PLT005,2024-11-17,Active
+EMP0188,Kyle,Farrell,Quality Manager,Quality,PLT004,2015-12-03,Active
+EMP0189,Megan,Delacruz,Logistics Coordinator,Logistics,PLT005,2023-11-22,Active
+EMP0190,George,Smith,Quality Inspector,Quality,PLT003,2022-12-23,Active
+EMP0191,Kimberly,Becker,Line Operator,Production,PLT005,2014-08-22,Active
+EMP0192,Robert,Tran,Procurement Manager,Purchasing,PLT004,2015-02-08,Active
+EMP0193,Brian,Johnson,Quality Manager,Quality,PLT003,2018-07-17,Active
+EMP0194,Kenneth,Rios,Manufacturing Engineer,Engineering,PLT006,2022-06-10,Retired
+EMP0195,Allison,Ray,Quality Inspector,Quality,PLT006,2021-01-10,Active
+EMP0196,Alexandra,Perez,Production Manager,Production,PLT006,2020-08-05,Active
+EMP0197,Katie,Nielsen,Quality Inspector,Quality,PLT005,2023-12-04,Active
+EMP0198,Kathy,Galvan,Process Engineer,Engineering,PLT002,2024-04-21,Active
+EMP0199,Scott,Ball,Operations Manager,Management,PLT003,2017-04-04,Active
+EMP0200,Emily,Kim,Logistics Coordinator,Logistics,PLT005,2021-11-23,Active
