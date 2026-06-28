@@ -1,16 +1,55 @@
 import streamlit as st
 import plotly.express as px
 
-from dashboard.database import load_supplier_performance
+from dashboard.database import (
+    load_supplier_performance,
+    load_delivery_summary,
+    load_inventory_summary,
+    load_corrective_action_status,
+    load_executive_kpis,
+    load_monthly_trends,
+)
 from dashboard.theme import apply_theme, kpi_card, section_header
-
+from dashboard.insights import (
+    generate_executive_summary,
+    generate_recommendations,
+)
+from dashboard.scoring import calculate_supplier_risk_scores
+from dashboard.alerts import generate_alerts
+from dashboard.narrative import generate_executive_narrative
 st.set_page_config(page_title="Executive Dashboard", layout="wide")
 apply_theme()
 
 st.title("🏭 Executive Dashboard")
 st.caption("Enterprise supplier quality, delivery, and risk performance overview")
 
-df = load_supplier_performance()
+supplier_df = load_supplier_performance()
+delivery_df = load_delivery_summary()
+inventory_df = load_inventory_summary()
+corrective_df = load_corrective_action_status()
+kpi_df = load_executive_kpis()
+monthly_df = load_monthly_trends()
+
+# Keep df for the existing charts and table
+df = supplier_df
+df = calculate_supplier_risk_scores(df)
+alerts_df = generate_alerts(df)
+executive_narrative = generate_executive_narrative(df, alerts_df)
+executive_insights = generate_executive_summary(
+    kpi_df=kpi_df,
+    supplier_df=supplier_df,
+    delivery_df=delivery_df,
+    inventory_df=inventory_df,
+    ca_df=corrective_df
+)
+
+executive_recommendations = generate_recommendations(
+    kpi_df=kpi_df,
+    supplier_df=supplier_df,
+    delivery_df=delivery_df,
+    inventory_df=inventory_df,
+    ca_df=corrective_df
+)
 
 # -----------------------
 # Executive KPI Cards
@@ -124,34 +163,132 @@ with right:
     st.plotly_chart(fig, use_container_width=True)
 
 st.divider()
+st.divider()
 
+section_header(
+    "Supplier Risk Heat Map",
+    "Visual comparison of supplier quality, delivery reliability, defect exposure, and risk rating"
+)
+
+if all(col in df.columns for col in [
+    "AvgQualityScore",
+    "AvgOnTimeDeliveryRate",
+    "AvgPPM",
+    "SupplierRiskRating",
+    "SupplierName",
+]):
+    fig = px.scatter(
+        df,
+        x="AvgQualityScore",
+        y="AvgOnTimeDeliveryRate",
+        size="AvgPPM",
+        color="SupplierRiskRating",
+        hover_name="SupplierName",
+        hover_data={
+            "AvgQualityScore": ":.2f",
+            "AvgOnTimeDeliveryRate": ":.2f",
+            "AvgPPM": ":.0f",
+            "SupplierRiskScore": ":.2f",
+            "SupplierRiskRating": True,
+        },
+        title="Supplier Risk Heat Map: Quality vs Delivery",
+    )
+
+    fig.update_layout(
+        height=550,
+        xaxis_title="Average Quality Score",
+        yaxis_title="Average On-Time Delivery Rate (%)",
+    )
+
+    st.plotly_chart(fig, use_container_width=True)
+
+else:
+    st.warning("Supplier risk heat map cannot be displayed because required columns are missing.")
 # -----------------------
-# Executive Insights
+# Executive Intelligence
 # -----------------------
-section_header("Executive Insights")
+st.divider()
 
-avg_quality = df["AvgQualityScore"].mean()
-avg_ppm = df["AvgPPM"].mean()
-avg_otd = df["AvgOnTimeDeliveryRate"].mean()
-
-worst_supplier = df.sort_values("AvgQualityScore").iloc[0]
-best_supplier = df.sort_values("AvgQualityScore", ascending=False).iloc[0]
-
+section_header(
+    "Executive Alert Center",
+    "High-priority supplier issues requiring management attention"
+)
 st.markdown(
     f"""
     <div class="section-card">
-        <b>Key Business Summary:</b><br><br>
-        The supplier network currently includes <b>{len(df):,}</b> active suppliers.
-        The average quality score is <b>{avg_quality:.2f}</b>, with an average defect rate of
-        <b>{avg_ppm:.2f} PPM</b> and average on-time delivery rate of <b>{avg_otd:.2f}%</b>.
-        <br><br>
-        The strongest supplier by quality score is <b>{best_supplier["SupplierName"]}</b>.
-        The lowest-performing supplier is <b>{worst_supplier["SupplierName"]}</b>, which may require
-        additional supplier development review, corrective action tracking, or process validation.
+        <b>Executive Narrative Briefing:</b><br><br>
+        {executive_narrative}
     </div>
     """,
     unsafe_allow_html=True
 )
+if alerts_df.empty:
+    st.success("✅ No critical supplier alerts at this time.")
+else:
+
+    severity_order = {
+        "Critical": 1,
+        "Warning": 2,
+    }
+
+    alerts_df["Order"] = alerts_df["Severity"].map(severity_order)
+    alerts_df = alerts_df.sort_values("Order").drop(columns="Order")
+
+    def severity_icon(level):
+        if level == "Critical":
+            return "🔴"
+        if level == "Warning":
+            return "🟡"
+        return "🟢"
+
+    for _, row in alerts_df.head(10).iterrows():
+
+        st.markdown(
+            f"""
+            <div class="section-card">
+                <b>{severity_icon(row['Severity'])} {row['Severity']}</b><br><br>
+
+                <b>Category:</b> {row['Category']}<br>
+
+                <b>Supplier:</b> {row['Supplier']}<br>
+
+                <b>Issue:</b> {row['Message']}
+            </div>
+            """,
+            unsafe_allow_html=True
+        )
+section_header(
+    "Executive Intelligence",
+    "Automated business interpretation of supplier quality, delivery, and risk performance"
+)
+
+st.markdown("### Executive Summary")
+
+for insight in executive_insights:
+    st.markdown(
+        f"""
+        <div class="section-card">
+            <b>Insight:</b><br>
+            {insight}
+        </div>
+        """,
+        unsafe_allow_html=True
+    )
+
+st.markdown("### Recommended Executive Actions")
+
+for recommendation in executive_recommendations:
+    st.markdown(
+        f"""
+        <div class="section-card">
+            <b>Recommended Action:</b><br>
+            {recommendation}
+        </div>
+        """,
+        unsafe_allow_html=True
+    )
+
+st.divider()
 
 # -----------------------
 # Supplier Table
@@ -161,4 +298,19 @@ section_header(
     "Detailed supplier-level metrics for quality, delivery, and risk review"
 )
 
-st.dataframe(df, use_container_width=True)
+display_columns = [
+    "SupplierName",
+    "AvgQualityScore",
+    "AvgPPM",
+    "AvgOnTimeDeliveryRate",
+    "SupplierPerformanceBand",
+    "SupplierRiskScore",
+    "SupplierRiskRating",
+]
+
+available_columns = [col for col in display_columns if col in df.columns]
+
+st.dataframe(
+    df[available_columns].sort_values("SupplierRiskScore", ascending=True),
+    use_container_width=True
+)
